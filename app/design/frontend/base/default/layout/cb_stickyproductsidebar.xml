@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <catalog_product_view>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/conversionbug/stickyproductsidebar/main.css</stylesheet>
+            </action>
+            <action method="addJs">
+                <script>conversionbug/stickyproductsidebar/stickEmUp.js</script>
+            </action>
+        </reference>
+        <reference name="head">
+            <block type="catalog/product_view" name="sticky" >
+                <action method="setTemplate" ifconfig="product_sticky_bar/general/status">
+                    <template>conversionbug/stickyproductsidebar/js.phtml</template>
+                </action>
+            </block>
+        </reference>
+    </catalog_product_view>
+</layout> 

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ConversionBug_Stickyproductsidebar>
+            <version>0.2.0</version>
+        </ConversionBug_Stickyproductsidebar>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <stickyproductsidebar>
+                    <file>cb_stickyproductsidebar.xml</file>
+                </stickyproductsidebar>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <helpers>
+            <stickyproductsidebar>
+                <class>ConversionBug_Stickyproductsidebar_Helper</class>
+            </stickyproductsidebar>
+        </helpers>
+        <blocks>
+            <stickyproductsidebar>
+                <class>ConversionBug_Stickyproductsidebar_Block</class>
+            </stickyproductsidebar>
+        </blocks>
+    </global>
+</config>
