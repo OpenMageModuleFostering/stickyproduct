@@ -39,8 +39,9 @@ class ConversionBug_Core_Block_System_Config_Info extends Mage_Adminhtml_Block_A
                   <script>
                    var email = "$adminEmail",
                        url = "$url",
-                       ip = "$ip";                       
-                      conversionbug.init(url,email,ip ); 
+                       ip = "$ip",        
+                       extension = "M1-Sticky Product";              
+                      conversionbug.init(url,email,ip,extension); 
                   </script>
 HTML;
 
