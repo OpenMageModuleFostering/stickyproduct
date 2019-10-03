@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/StickyProduct",
+    "name": "OpenMageModuleFostering\/StickyProduct",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "The sticky product extension has been designed to increase the sales for e-commerce stores.",
     "authors": [
-    {
-        "name": "shivkumar singh",
-        "email": "shivam.kumar@conversionbug.com"
-    }
-],
+        {
+            "name": "shivkumar singh",
+            "email": "shivam.kumar@conversionbug.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
