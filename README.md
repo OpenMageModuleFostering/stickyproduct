@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 The sticky product extension has been designed to increase the sales for e-commerce stores.
